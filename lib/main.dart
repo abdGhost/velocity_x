@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learning_velocity_x/screens/box_page_screen.dart';
 
 import 'screens/home_page_screen.dart';
 
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomePageScreen(),
+      // home: HomePageScreen(),
+      home: BoxPageScreen(),
     );
   }
 }
